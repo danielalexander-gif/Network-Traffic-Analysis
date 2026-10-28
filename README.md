@@ -20,9 +20,9 @@ Utilized a public packet capture as a simulated environment to demonstrate the a
   * **Destination IP (Server):** `2001:638:902:1:201:2ff:fee2:7596`
 
 > **Evidence:**  
-> *[<img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/1c6a7f92-3d74-4a42-b72c-ee8731c7220a" />
+> <img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/1c6a7f92-3d74-4a42-b72c-ee8731c7220a" />
 
-]*
+
 
 **Remediation & Escalation:**
 1. **Credential Reset:** Force an immediate password reset for the user operating at the Source IP.
