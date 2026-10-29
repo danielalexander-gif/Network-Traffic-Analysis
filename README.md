@@ -58,8 +58,8 @@ Extracted IOC (IP): 37.200.69.143
 
 Payload Signature: Disguised as a randomized PHP session string (index.php?req=m&num...), the file's actual Content-Type was revealed as application/x-msdownload (Microsoft Executable).
 
-[<img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/99779f29-d801-4718-bacb-01f3f003e5b3" />
-]
+<img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/99779f29-d801-4718-bacb-01f3f003e5b3" />
+
 
 ## Phase 3: OSINT Verification (Threat Intelligence)
 Objective: Cross-reference extracted network indicators with global threat intelligence databases to confirm the malicious nature of the server.
@@ -71,5 +71,5 @@ IP Reputation Decay: The IP address returned a clean reputation, effectively dem
 
 Domain Verification: The domain name retained its historical threat data, with multiple security vendors successfully flagging it as a malicious malware distributor, confirming the initial Wireshark triage.
 
-[<img width="1920" height="1080" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/b8778aec-606d-4d55-aa44-78bb9f26fba6" />
-]
+<img width="1920" height="1080" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/efe6e8cb-289d-4afb-9754-91adb48deb6a" />
+
