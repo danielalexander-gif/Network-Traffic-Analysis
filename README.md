@@ -47,7 +47,7 @@ To isolate the infection vector from standard background network noise, the capt
 
 Query: http.request.method == "GET"
 
-Finding: The victim's browser was subjected to an Exploit Kit redirect chain, seamlessly routing traffic from a legitimate domain (www.ciniholland.nl) through intermediate infrastructure (24corp-shop.com) to a hostile delivery server (stand.trustandprobaterealty.com).
+Finding: The victim's browser was subjected to an Exploit Kit redirect chain, seamlessly routing traffic from a legitimate domain "www.ciniholland.nl" through intermediate infrastructure (24corp-shop.com) to a hostile delivery server (stand.trustandprobaterealty.com).
 
 2. Payload Identification
 Using Wireshark's HTTP Object extraction capabilities, the hostile server's deliveries were cataloged. The attacker initially deployed Flash and Java files to exploit browser vulnerabilities before successfully pushing a malicious executable payload to the victim's machine.
